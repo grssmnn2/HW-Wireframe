@@ -5,9 +5,19 @@
 
 .navcontainer{
 	margin: 0px 20px 5px 20px;
+	bottom: 2px;
 }
 
+/*commented out body (does this keep divs from moving when zooming in/out?)
+body{
+	min-width: 960px;
+	max-width: 960px;
+}
+*/
+
 .asidecontainer{
+	position: fixed;
+	left: 575px;
 	margin: 0px 522px 8px 0px;
 	float: right;
 	padding-bottom:263px;
@@ -20,6 +30,7 @@
 	margin: 0px 0px 5px 25px;
 	padding: 10px 25px;
 }
+
 .footercontainer{
 	margin: 0px 20px 20px 20px;
 }
